@@ -1,0 +1,180 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header {
+	float: right;
+	font-size: small;
+}
+
+header > div {
+	float: left;
+	display: inline-block;
+	padding: 0px 8px 0px 8px;
+	margin-top: 13px;
+}
+
+header a {
+	color: #000;
+	opacity: .75;
+}
+
+.header-btns > div {
+	float: left;
+	position: relative;
+	top: -7.5px;
+}
+
+.apps {
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	position: relative;
+}
+
+.apps > a {
+	height: 30px;
+	width: 30px;
+	background: url("https://ssl.gstatic.com/gb/images/i1_0430b5ba.png");
+	background-position: -132px -38px;
+	background-size: 528px 68px;
+	color: #000;
+	opacity: .55;
+	display: inline-block;
+}
+
+.apps > a:hover {
+	opacity: 1;
+}
+
+.login-btn {
+	opacity: 1;
+	display: inline-block;
+    padding: 0 0 0 15px;
+    position: relative;
+    width: 80px;
+	height: 30px;
+}
+
+.login-btn > a {
+	opacity: 1;
+	cursor: default;
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 28px;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #4285f4;
+	font-weight: bold;
+	outline: none;
+	background: #4285f4;
+	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+	color: #fff;
+	padding: 0 12px 0 12px;
+	border-radius: 2px;
+}
+
+article {
+	padding-top: 184px;
+	text-align: center;
+}
+
+img.logo {
+	height: 95px;
+	width: 269px;
+}
+
+.search-block {
+	padding-top: 21px;
+}
+
+.search-field {
+	background-image: url("https://raw.githubusercontent.com/ngehani/htmlcss/master/googlelogo/icon.gif");
+	background-repeat: no-repeat;
+	background-position: 99% 50%;
+	background-size: 14px 19px;
+	height: 26px;
+	width: 560px;
+	border: 1px solid rgba(0,0,0,0.3);
+	padding-left: 8px;
+}
+
+.search-field:hover {
+	border: 1px solid rgba(0,0,0,0.7);
+}
+
+.search-field:focus, .search-field:active {
+	border: 1px solid rgba(18, 147, 204, 0.8);
+	outline-offset: 0;
+	outline: 0;
+}
+
+.submit-btns {
+	padding-top: 15px;
+}
+
+.submission {
+	font-size: 11px;
+	font-weight: bold;
+	color: #444;
+	height: 29px;
+	line-height: 27px;
+	background-color: #f5f5f5;
+	background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 2px;
+	margin: 0 6px 0 6px;
+	padding: 0 8px;
+}
+
+.submission:hover {
+	border: 1px solid rgba(0,0,0,0.2);
+	color: #000;
+}
+
+.submission:focus {
+	border: 1px solid rgba(18, 147, 204, 0.8);
+	outline-offset: 0;
+	outline: 0;
+}
+
+
+footer {
+	font-size: small;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	line-height: 40px;
+}
+
+#footer-left {
+	float: left;
+	margin-left: 18px;
+}
+
+#footer-right {
+	float: right;
+	margin-right: 18px;
+}
+
+#footer-left > a, #footer-right > a {
+	display: inline-block;
+	color: #666;
+	padding: 0 13px;
+
+}
